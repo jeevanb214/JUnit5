@@ -18,7 +18,8 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<version>${junit.jupiter.version}</version>    <!-- goto the google docs you will understand why we added two dependency or if you see the diageram you can understand -->
+			<version>${junit.jupiter.version}</version>    <!-- goto the google docs you will understand why we added two dependency 
+				or if you see the diageram you can understand -->
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -26,6 +27,12 @@
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-commons</artifactId>
+			<version>1.5.2</version>
 		</dependency>
 
 	</dependencies>
